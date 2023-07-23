@@ -55,7 +55,7 @@ class Emprestimos(models.Model):
        Usuario, on_delete=models.DO_NOTHING, blank=True, null=True)
     nome_turma = models.ForeignKey(
         Turma, on_delete=models.DO_NOTHING, blank=True, null=True, verbose_name = "Turma")
-    esta_emprestado = models.BooleanField(default=False, , verbose_name = "Emprestar Livro")
+    esta_emprestado = models.BooleanField(default=False,verbose_name = "Emprestar Livro")
 
     def hidden_livro(self):
         if self.emprestado.quantidade == 0:
