@@ -91,10 +91,10 @@ WSGI_APPLICATION = 'biblioteca.wsgi.application'
 DATABASES = { 
    'default': { 
        'ENGINE': 'django.db.backends.mysql', 
-       'NAME': 'sql6633127', 
-       'USER': 'sql6633127', 
-       'PASSWORD': 'DmZ8ivD9w2', 
-       'HOST': 'sql6.freesqldatabase.com', 
+       'NAME': 'sql9634698', 
+       'USER': 'sql9634698', 
+       'PASSWORD': 'JVmAw9J6Xj', 
+       'HOST': 'sql9.freesqldatabase.com', 
        'PORT': '3306', 
        'OPTIONS': { 
            'sql_mode': 'traditional',
