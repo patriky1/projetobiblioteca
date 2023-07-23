@@ -45,8 +45,8 @@ class Livros(models.Model):
 
 class Emprestimos(models.Model):
     emprestado = models.ForeignKey(
-       Livros, on_delete=models.DO_NOTHING, blank=True, null=True)
-    nome_emprestado = models.CharField(blank=True, null=True, max_length=120)
+       Livros, on_delete=models.DO_NOTHING, blank=True, null=True, verbose_name = "Livro")
+    nome_emprestado = models.CharField(blank=True, null=True, max_length=120, verbose_name = "Nome do Aluno")
     data_emprestimo = models.DateField(
        default=date.today, blank=True, null=True)
     data_devolucao = models.DateField(blank=True, null=True)
