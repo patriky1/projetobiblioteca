@@ -1,6 +1,6 @@
 .venv/
 biblioteca/__pycache__/
-livro/__pycache__/
+
 livro/migrations/__pycache__/
 usuarios/__pycache__/
 usuarios/migrations/__pycache__/
